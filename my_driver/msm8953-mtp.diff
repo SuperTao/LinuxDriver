@@ -1,0 +1,17 @@
+diff --git a/arch/arm64/boot/dts/IDH60/msm8953-mtp.dtsi b/arch/arm64/boot/dts/IDH60/msm8953-mtp.dtsi
+index e08f20d..ea0887b 100755
+--- a/arch/arm64/boot/dts/IDH60/msm8953-mtp.dtsi
++++ b/arch/arm64/boot/dts/IDH60/msm8953-mtp.dtsi
+@@ -454,6 +454,12 @@
+                 };
+ 
+         };
++		tao,my_platform {
++            compatible = "tao,my_platform";
++            status = "okay";
++			tao,size = <1>;
++			tao,name = "my_platform_test";
++		};
+ 
+ };
+
