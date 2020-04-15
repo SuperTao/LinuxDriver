@@ -14,6 +14,13 @@ struct device *dev;
 	// 创建属性值, dev是device_create函数返回的struct device,  /sys/class/chrdev0/chrdev0/size
     rc = device_create_file(dev, &dev_attr_size);
 ```
+模块退出，记得删除对应的文件。
+
+```
+
+void driver_remove_file(struct device_driver * drv, const struct driver_attribute * attr);
+
+```
 
 源码请参考[my_create_attr.c](../my_driver/my_create_attr.c)。
 
