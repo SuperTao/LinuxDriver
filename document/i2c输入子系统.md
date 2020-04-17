@@ -20,9 +20,29 @@ arch/arm64/boot/dts/IDH60/msm8953-mtp.dtsi
 
 ### 编写驱动
 
+##### 设备和驱动匹配
+
+* struct of_device_id
+
+这种是通常使用的匹配设备树的方法，代码中先会使用这种方法来匹配`compatible = "ti,tsu6721";`。不成功才用下面的方法来匹配。
+
+但是我自己尝试，只保留of_device_id，删掉i2c_device_id。并没有匹配上，也没有调用probe函数，后面再看原因。
+
+* struct i2c_device_id
+
+可能一个驱动会支持很多设备。如下，有一个匹配和dts上的`tsu6721@25`匹配上即可。
+
+static const struct i2c_device_id tsu6721_id[] = { 
+    {"tsu6722", 0},
+	{"tsu6721", 0}, 
+    {}, 
+};
+
+##### 发送数据
+
 通过i2c_add_driver()注册i2c驱动。
 
-驱动通过和"ti,tsu6721"匹配，运行probe函数。
+驱动匹配成功之后，运行probe函数。
 
 probe函数运行后，可以通过struct i2c_client的addr获取设备地址25。
 
