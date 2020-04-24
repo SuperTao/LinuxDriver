@@ -1,8 +1,6 @@
-学习linux驱动的编写方法。
+使用Linux挺久了，梳理一份关于Linux驱动的文档。
 
-my_driver目录的代码都是可以直接运行的。放到kernel目录进行编译即可。
-
-### 字符设备
+# 字符设备
 	
 *  [字符设备注册](./document/字符设备注册.md)
 	
@@ -12,15 +10,15 @@ my_driver目录的代码都是可以直接运行的。放到kernel目录进行�
 
 *  [proc文件添加](./my_driver/proc/proc_create.c)
 
-### 杂项设备
+# 杂项设备
 
 *  [杂项设备创建](./document/杂项设备创建.md)
 
-### 平台设备
+# 平台设备
 
 *  [平台设备创建](./document/平台设备创建.md)
 
-### 输入子系统
+# 输入子系统
 
 *  [input输入子系统](./document/input输入子系统.md)
 
