@@ -20,7 +20,7 @@
 
 #  中断处理
 
-*  [gpio按键中断](./document/irq_test.c)
+*  [gpio按键中断](./my_driver/irq_test.c)
 
 # 输入子系统
 
