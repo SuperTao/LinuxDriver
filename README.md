@@ -20,15 +20,15 @@
 
 # 同步
 
-*  [spinlock自旋锁](./my_driver/sycn/spinlock/test.c)
+*  [spinlock自旋锁](./my_driver/sync/spinlock/test.c)
 
-*  [semaphore信号量](./my_driver/sycn/semaphore/test.c)
+*  [semaphore信号量](./my_driver/sync/semaphore/test.c)
 
-*  [mutex互斥量](./my_driver/sycn/mutex/test.c)
+*  [mutex互斥量](./my_driver/sync/mutex/test.c)
 
-*  [atomic原子锁](./my_driver/sycn/atomic/test.c)
+*  [atomic原子锁](./my_driver/sync/atomic/test.c)
 
-*  [completion完成量](./my_driver/sycn/completion/test.c)  
+*  [completion完成量](./my_driver/sync/completion/test.c)  
 
 #  中断处理
 
