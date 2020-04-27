@@ -36,6 +36,8 @@
 
 *  [gpio按键中断](./document/irq/irq_test.c)
 
+*  [中断上下部](./document/irq/中断上下部.md)
+
 # 输入子系统
 
 *  [input输入子系统](./document/input/input输入子系统.md)
