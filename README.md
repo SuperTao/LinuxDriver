@@ -18,6 +18,18 @@
 
 *  [平台设备创建](./document/平台设备创建.md)
 
+# 同步
+
+*  [spinlock自旋锁](./my_driver/sycn/spinlock/test.c)
+
+*  [semaphore信号量](./my_driver/sycn/semaphore/test.c)
+
+*  [mutex互斥量](./my_driver/sycn/mutex/test.c)
+
+*  [atomic原子锁](./my_driver/sycn/atomic/test.c)
+
+*  [completion完成量](./my_driver/sycn/completion/test.c)  
+
 #  中断处理
 
 *  [gpio按键中断](./my_driver/irq_test.c)
