@@ -22,7 +22,7 @@ void driver_remove_file(struct device_driver * drv, const struct driver_attribut
 
 ```
 
-源码请参考[my_create_attr.c](../my_driver/my_create_attr.c)。
+源码请参考[my_create_attr.c](./my_create_attr.c)。
 
 #### sysfs_create_group
 
@@ -45,7 +45,7 @@ struct device *dev;
 	sysfs_remove_group(&dev->kobj, &my_chrdev_attrs_group);
 ```
 
-源码请参考[my_create_group_attr.c](../my_driver/my_create_group_attr.c)。
+源码请参考[my_create_group_attr.c](./my_create_group_attr.c)。
 
 #### 私有数据的访问
 

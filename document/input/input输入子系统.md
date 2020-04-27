@@ -1,4 +1,4 @@
-写了一个简单的demo，放在kernel中可以直接运行。源码参考[my_key.c](../my_driver/my_key.c)
+写了一个简单的demo，放在kernel中可以直接运行。源码参考[my_key.c](./my_key.c)
 
 #### 设备树
 
