@@ -26,9 +26,11 @@
 
 *  [mutex互斥量](./my_driver/sync/mutex/test.c)
 
-*  [atomic原子锁](./my_driver/sync/atomic/test.c)
+*  [atomic原子操作](./my_driver/sync/atomic/test.c)
 
 *  [completion完成量](./my_driver/sync/completion/test.c)  
+
+*  锁的区别(./my_driver/sync/README.md)
 
 #  中断处理
 
