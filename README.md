@@ -40,6 +40,10 @@
 
 *  [tasklet](./document/irq/tasklet_test.c)
 
+*  [workqueue](./document/irq/workqueue_thread_test.c)
+
+*  [tasklet&workqueue区别](./document/irq/tasklet_workqueue的区别.md)
+
 # 输入子系统
 
 *  [input输入子系统](./document/input/input输入子系统.md)
