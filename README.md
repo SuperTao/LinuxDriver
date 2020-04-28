@@ -32,6 +32,10 @@
 
 *  [锁的区别](./document/sync/README.md)
 
+#  线程
+
+*  [thread](./document/thread/test.c)
+
 #  中断处理
 
 *  [gpio按键中断](./document/irq/irq_test.c)
