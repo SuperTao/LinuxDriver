@@ -10,6 +10,8 @@
 
 *  [proc文件添加](./document/chardev/proc/proc_create.c)
 
+*  [阻塞IO操作](./document/chardev/sleepy.c)
+
 # 杂项设备
 
 *  [杂项设备创建](./document/chardev/杂项设备创建.md)
