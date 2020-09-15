@@ -72,6 +72,10 @@ static ssize_t my_misc_write(struct file *file, const char *buf,
 	// 信号量值减1
     //加不了锁,睡眠等待
     down(&test_t.sem);
+/*  // 操作可中断，返回非零，表示操作被中断
+    if (down_interruptible(&test_t.sem))
+        return -ERESTARTSYS;
+ */
 /*	// 加不了锁，就直接退出
     if(down_trylock(&test_t.sem))
         return -EAGAIN;
