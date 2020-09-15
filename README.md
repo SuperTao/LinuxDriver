@@ -18,7 +18,7 @@
 
 *  [平台设备创建](./document/platform/平台设备创建.md)
 
-# 同步
+# 并发和竞态
 
 *  [spinlock自旋锁](./document/sync/spinlock/test.c)
 
