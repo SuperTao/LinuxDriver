@@ -12,8 +12,6 @@
 
 *  [阻塞IO操作](./document/chardev/sleepy.c)
 
-# 杂项设备
-
 *  [杂项设备创建](./document/chardev/杂项设备创建.md)
 
 # 平台总线驱动
