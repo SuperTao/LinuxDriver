@@ -40,6 +40,22 @@
 
 * [定时器](./document/timer/timer/test.c)
 
+# 内存分配
+
+* [alloc_pages](./document/mem/01alloc_pages/test.c)
+
+* [kmalloc](./document/mem/02kmalloc/test.c)
+
+* [vmalloc](./document/mem/03vmalloc/test.c)
+
+* [kmem_cache](./document/mem/04kmem_cache/test.c)
+
+* [memory address](./document/mem/05mem/test.c)
+
+* [dma](./document/mem/06dma/test.c)
+
+* [err处理](./document/mem/07err/test.c)
+
 #  线程
 
 *  [thread](./document/thread/test.c)
