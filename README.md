@@ -34,6 +34,12 @@
 
 *  [锁的区别](./document/sync/README.md)
 
+# 时钟滴答和定时器
+
+* [时钟滴答jiffies](./document/timer/jiffies/test.c)
+
+* [定时器](./document/timer/timer/test.c)
+
 #  线程
 
 *  [thread](./document/thread/test.c)
